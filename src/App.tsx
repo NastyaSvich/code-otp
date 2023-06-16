@@ -7,12 +7,14 @@ function App() {
     return (
         <div className="app">
             <div>Ввод кода из СМС в браузерах с поддержкой WebOTP Api.</div>
-            <div>Для автоматической подстановки кода необходимо отправить смс на свой телефон формата:</div>
+            <div>Для автоматической подстановки кода необходимо отправить смс на свой телефон
+                (номера отправителя не должно быть в контактах) формата:
+            </div>
             
             <hr/>
             <div style={{display: 'inline-flex', flexDirection: 'column', textAlign: 'left'}}>
                 <p>Your OTP is: 1234.</p>
-                <p>@main--code-otp.netlify.app #1234</p>
+                <p>@code-otp.netlify.app #1234</p>
             </div>
             <hr/>
             
