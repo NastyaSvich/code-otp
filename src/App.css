@@ -3,6 +3,14 @@
   padding: 50px;
 }
 
-.alfaCodeInput {
-  margin-top: 50px;
+.alfaCodeInput, .alfaLink {
+  display: block;
+  margin-top: 20px;
+}
+
+.codeBlock {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0.5em;
 }

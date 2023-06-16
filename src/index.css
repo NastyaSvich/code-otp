@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+pre, pre[class*=language-] {
+  background: #f8f9fa;
+  border: 1px solid #dadce0;
+  border-radius: 3px;
+}
